@@ -6,6 +6,12 @@
         list-style: none;
         text-decoration: none;
         font-size: 14px;
+        a {
+            text-decoration: none;
+        }
+        a:active, a:hover, a:visited {
+            color: rgb(2, 84, 151);; 
+        }
     }
     .nav-menu  {
         text-decoration: none;
@@ -14,12 +20,6 @@
         overflow: hidden;
         position: relative;
         color:  rgb(2, 84, 151);; 
-        a {
-            text-decoration: none;
-        }
-        a:active, a:hover, a:visited {
-            color: rgb(2, 84, 151);; 
-        }
         &:hover {
             border: 2px solid   rgb(2, 84, 151);
             span {
